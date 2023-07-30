@@ -1,0 +1,15 @@
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\bin\Debug\netcoreapp3.1\Prac6_Interest_37279432.exe
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\bin\Debug\netcoreapp3.1\Prac6_Interest_37279432.deps.json
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\bin\Debug\netcoreapp3.1\Prac6_Interest_37279432.runtimeconfig.json
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\bin\Debug\netcoreapp3.1\Prac6_Interest_37279432.runtimeconfig.dev.json
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\bin\Debug\netcoreapp3.1\Prac6_Interest_37279432.dll
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\bin\Debug\netcoreapp3.1\Prac6_Interest_37279432.pdb
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\obj\Debug\netcoreapp3.1\Prac6_Interest_37279432.csproj.AssemblyReference.cache
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\obj\Debug\netcoreapp3.1\Prac6_Interest_37279432.Form1.resources
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\obj\Debug\netcoreapp3.1\Prac6_Interest_37279432.csproj.GenerateResource.cache
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\obj\Debug\netcoreapp3.1\Prac6_Interest_37279432.AssemblyInfoInputs.cache
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\obj\Debug\netcoreapp3.1\Prac6_Interest_37279432.AssemblyInfo.cs
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\obj\Debug\netcoreapp3.1\Prac6_Interest_37279432.csproj.CoreCompileInputs.cache
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\obj\Debug\netcoreapp3.1\Prac6_Interest_37279432.dll
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\obj\Debug\netcoreapp3.1\Prac6_Interest_37279432.pdb
+D:\AHenlo\Documents\VS\Prac6_Interest_37279432\obj\Debug\netcoreapp3.1\Prac6_Interest_37279432.genruntimeconfig.cache

@@ -1,6 +1,4 @@
-﻿//Prac6.2
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Prac6._2_Project_37279432
+namespace Prac6_Interest_37279432
 {
     public partial class Form1 : Form
     {
@@ -22,46 +20,25 @@ namespace Prac6._2_Project_37279432
         private void Calculatebtn_Click(object sender, EventArgs e)
         {
             //local variables
-            double compound;
-            double result;
-            double compoundtype = 0;
             double A;
             double n;
             double r;
             int count = 0;
-            
-            
 
-            if (double.TryParse(AmountInvestedInput.Text, out A)) //get initial amount invested.
+            if(double.TryParse(AmountInvestedInput.Text, out A)) //get initial amount invested.
             {
-                if (double.TryParse(numberofPeriodsInput.Text, out n)) //get the amount of years/months invested.
+                if(double.TryParse(YearsInvestedInput.Text, out n)) //get the amount of years invested.
                 {
-                    if (double.TryParse(InterestRateInput.Text, out r)) // get the value of interest rate.
+                    if(double.TryParse(InterestRateInput.Text, out r)) // get the value of interest rate.
                     {
-                       
-                        if (cbyearly.Checked)
-                        {
-                            compoundtype = 1;
-                        }
-                        if (cbQuarterly.Checked)
-                        {
-                            compoundtype = 4;
-                        }
-                        if (cbMonthly.Checked)
-                        {
-                            compoundtype = 12;
-                        }
                         //the loop calculates and outputs the results.
                         while (count < n)
                         {
-                            double i = r / 100;
-                            compound = A * (1 + (i / compoundtype));
-                            result = Math.Pow(compound, (n * compoundtype));
-                            lbOutput.Items.Add("your interest is" + compound.ToString("c"));
-                            count = count + 1;
-                        }
+                            A = A + ((r/100) * A);
 
-                       
+                            count = count + 1;
+                        lbOutput.Items.Add("After " + count + " years the amount is: " + A.ToString("c"));
+                        }
                     }
                     else
                     {
@@ -78,12 +55,14 @@ namespace Prac6._2_Project_37279432
             else
             {
                 //error message for invalid amount invested.
-                MessageBox.Show("Invalid value for Initail amount invested.");
+                MessageBox.Show("Invalid value for Initail amount invested."); 
             }
+
         }
 
         private void Exitbtn_Click(object sender, EventArgs e)
         {
+            //close form
             this.Close();
         }
     }

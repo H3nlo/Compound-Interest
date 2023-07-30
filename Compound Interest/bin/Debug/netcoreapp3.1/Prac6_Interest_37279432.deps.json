@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Prac6_Interest_37279432/1.0.0": {
+        "runtime": {
+          "Prac6_Interest_37279432.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Prac6_Interest_37279432/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
